@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@keyframes blick {
+    0% {
+    text-shadow: 0 0 2px rgb(255, 145, 145);
+    }
+    100% {
+    text-shadow: 0 0 15px rgb(255, 19, 19), 0 0 25px rgb(255, 145, 145), 0 0 35px rgb(255, 145, 145), 0 0 15px rgb(255, 19, 19), 0 0 25px rgb(255, 145, 145), 0 0 35px rgb(255, 145, 145);
+    }
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+/* Frame 1 */
+
+position: relative;
+width: 390px;
+height: 844px;
+
+background: #FDCECF;
+  margin: 0;
+  padding: 0;
+
+}
+
+.me {
+/* Rectangle 1 */
+
+position: relative;
+width: 505px;
+height: 843px;
+margin: 0px;
+
+background: url(photo_2026-01-17_16-21-42.jpg);
+filter: blur(3px);
+
+z-index: -5;
+}
+.bant {
+    /* 8095718 1 */
+
+position: absolute;
+width: 94.97px;
+height: 94.97px;
+left: 380px;
+top: 25px;
+
+background: url(8095718.png);
+filter: blur(2px);
+transform: rotate(25.64deg);
+}
+.zp {
+    /* ЗАПРОШЕННЯ ДЛЯ КОХАНОЇ */
+
+position: absolute;
+width: 250.75px;
+height: 150.4px;
+left: 135px;
+top: 13px;
+
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+
+color: #FFFFFF;
+
+text-shadow: 0px 0px 25px #FF0000;
+}
+.data {
+    /* 18.01.2026 */
+
+position: absolute;
+width: 66.97px;
+height: 17.8px;
+left: 40px;
+top: 8px;
+
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 16px;
+text-align: center;
+
+color: #FFFFFF;
+
+opacity: 0.5;
+text-shadow: 0px 0px 5px #000000;
+}
+.zp1 {
+    /* Відвідати кінотеатр на мультфільм “Зоотрополіс 2” разом з Коханим у двох. Обов’язково бути готовою до виходу о 14:00. При собі обов’язково мати чарівну усмішку і бути як завжди самою неймовірною. За бажанням є можливість наголосити Коханому що Кохана хоче вкусного до мультфільму . Я тебе Кохаю! */
+
+position: absolute;
+width: 265px;
+height: 672px;
+left: 33%;
+top: calc(50% - 672px/2 + 38px);
+
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+text-align: center;
+
+color: #FFFFFF;
+
+animation: blick 1.5s ease-in-out infinite alternate;
+}
